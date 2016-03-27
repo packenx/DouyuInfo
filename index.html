@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>斗鱼直播信息</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+房间: <input type="text" id="douyuid">
+<button onclick="updateRoomInfo(document.getElementById('douyuid').value)">OK</button> <br />
+
+<p>
+owner_avatar: <img id="owner_avatar"></img><br />
+room_src: <img id="room_src"></img><br />
+
+room_id: <span id="room_id"></span><br />
+room_name: <span id="room_name"></span><br />
+show_details: <span id="show_details"></span><br />
+
+owner_uid: <span id="owner_uid"></span><br />
+nickname: <span id="nickname"></span><br />
+
+online: <span id="online"></span><br />
+fans: <span id="fans"></span><br />
+owner_weight: <span id="owner_weight"></span><br />
+black: <span id="black"></span><br />
+
+show_status: <span id="show_status"></span><br />
+rtmp_1: <span id="rtmp_live"></span><br />
+rtmp_2: <span id="rtmp_middle2"></span><br />
+rtmp_3: <span id="rtmp_middle"></span><br />
+hls_url: <span id="hls_url"></span><br />
+</p>
+
+<script type="text/javascript" src="md5.js"></script>
+<script type="text/javascript" src="douyu.js"></script>
+
+</body>
+</html>
